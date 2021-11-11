@@ -32,7 +32,7 @@
      width: 150px;
      margin-bottom: 48px;
      justify-self: center;
-     /* display: none; */
+     display: none;
  }
 
  .title{
@@ -68,7 +68,25 @@
      padding: 6px;
      margin-bottom: 12px;
  }
- .primary-button-login-button{
+ .primary-button{
      background-color: var(--hospital-green);
+     border-radius: 8px;
+     border: none;
+     color: var(--white);
+     width: 100%;
+     cursor: pointer;
+     font-size: var(--md);
+     font-weight: bold;
+     height: 50px;
+ }
 
+ .login-button{
+     margin-top: 14px;
+     margin-bottom: 30px;
+ }
+
+ @media(max-width: 640px ){
+    .logo{
+        display: block;
+    }
  }

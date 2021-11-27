@@ -16,3 +16,11 @@
      padding: 20px;
      margin: 20px;
  }
+
+ .contenedor{
+     display: grid;
+     grid-template-columns: repeat(auto-fill, 300px);
+     place-content: center;
+    background-color: black;
+
+ }
